@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url(./Assets/brain.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.container {
+    background-color: rgba(221, 215, 250, 0.5);
+    border: 3px rgba(255, 255, 182, 0.5) solid;
+    width: 50%;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+#guess {
+    font-family: 'Roboto Mono', monospace;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#btn {
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgba(255, 182, 193, 0.5);
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#btn:hover {
+    cursor: pointer;
+}
+
+@media all and (max-width: 800px) {
+    body {
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .container {
+        width: 70%;
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .container {
+        width: 88%;
+    }
+
+    #guess {
+        width: 150px;
+    }
+}
