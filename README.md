@@ -2,6 +2,10 @@
 
 Welcome to NumberGame! This is a simple guessing game where you try to guess the computer's randomly generated number between 80 and 100.
 
+## Live Demo
+
+You can check out the live version of this website [here](https://what-is-number.netlify.app/).
+
 ## Table of Contents
 - [About the Project](#about-the-project)
 - [Usage](#usage)
